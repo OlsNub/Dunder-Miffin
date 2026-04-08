@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    background: #1B54DD;
+    color: #fff;
+    height: 755px;
+    width: 600px;
+    text-align: center;
+}
+
+.logoIMG{
+    margin-top: 32px;
+}
+
+.fact{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: var(--white);
+
+    width: 400px;
+    margin-left: 90px;
+}
+
+.txt{
+    width: 500px;
+    margin-left: 50px;
+}
+
+.CTAtext button{
+    background: #fff;
+    height: 41px;
+    width: 110px;
+    border: none;
+    font-size: 14px;
+}
+
+.CTAtext{
+    font-family: var(--font-family);
+    font-weight: 600;
+    
+    text-align: center;
+    color: #1a2028;
+}
+
+main{
+    display: flex;
+    background: #ffffff;
+    flex-direction: column;
+}
+
+.GroupBox_1{
+    display: flex;
+    
+    justify-content: center;
+}
+
+.GroupPhoto_1{
+    width: 180px;
+    height: 180px;
+}
+
+.GroupText_1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-left: 50px; 
+    width: 250px;
+    margin-top: 25px;
+}
+
+.GroupText_1 h2,
+.GroupText_1 p,
+.GroupText_1 a{
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.GroupBox_2{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.GroupPhoto_2{
+    width: 180px;
+    height: 180px;
+}
+
+.GroupText_2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-left: 50px; 
+    width: 250px;
+    margin-top: 25px;
+}
+
+.GroupText_2 h2,
+.GroupText_2 p,
+.GroupText_2 a{
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.GroupBox_3{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.GroupPhoto_3{
+    width: 180px;
+    height: 180px;
+}
+
+.GroupText_3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-left: 50px; 
+    width: 250px;
+    margin-top: 25px;
+}
+
+.GroupText_3 h2,
+.GroupText_3 p,
+.GroupText_3 a{
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+footer{
+    background: #969696;
+    width: 600px;
+   
+}
+
+.FooterIMG{
+    display: flex;
+    justify-content: center; 
+}
+
+.FooterIMG img{
+    width: 50px;
+    height: 50px;
+}
+
+.FooterText_End{
+    text-align: center;
+}
+
+.Mark{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Mark img{
+    width: 40px;
+    height: 22px;
+}
